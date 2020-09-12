@@ -1,0 +1,6 @@
+# ignore cache
+__pycache__/
+
+# ignore tests
+test.py
+
