@@ -1,0 +1,3 @@
+CREATE TABLE tasks (id INTEGER PRIMARY KEY, task varchar(255) NOT NULL, time int NOT NULL)
+INSERT INTO tasks (task, time) VALUES({0}, {1})
+UPDATE tasks SET tasks={0}, time={1} WHERE id={2}
