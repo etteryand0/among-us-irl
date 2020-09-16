@@ -1,4 +1,9 @@
 class Database:
-    def __init__(self):
-        pass
+    def spectate_tasks():
+        import sqlite3
+        connection = sqlite3.connect('database.db')
+        cursor = connection.cursor()
 
+        tasks = list(cursor.execute('SELECT * FROM tasks'))
+        for task in tasks:
+            print(task)

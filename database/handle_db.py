@@ -38,7 +38,7 @@ elif method == 3:
     Database().pop_task()
 elif method == 4:
     # spectate tasks
-    Database().spectate_tasks()
+    Database.spectate_tasks()
 elif method == 5:
     # redact tasks
     Database().redact()
